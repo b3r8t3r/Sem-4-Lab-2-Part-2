@@ -24,8 +24,6 @@ void Analize(string txt) {
         if (txt[i] == '#') id.push_back(i);
     }
     
-    /*if ((fmod((int)id.size(), 2) == 0) && ((int)id.size())) out << "Everything is fine" << endl << txt.substr(id[0] + 1, id[1] - id[0] - 1) << endl;
-    else out << "Everything is not fine" << endl;*/
     if ((fmod((int)id.size(), 2) == 0) && ((int)id.size())) {
         result = "Everything is fine";
     }
